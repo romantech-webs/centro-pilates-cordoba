@@ -1,307 +1,357 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Centro Pilates Cordoba Fisioterapia SL",
+  logo: "/images/logo.png",
+  tagline: "Fisioterapia y Pilates en Córdoba para tu recuperación",
+  description: "Centro Pilates Cordoba Fisioterapia SL es tu clínica de fisioterapia especializada en Córdoba, Álava. Combinamos fisioterapia avanzada con el Método Pilates para recuperación integral. Tratamos lesiones deportivas, accidentes de tráfico, dolencias crónicas y desviaciones posturales. Valorados con 4.5 estrellas por nuestros pacientes que destacan nuestro trato profesional y resultados efectivos.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#0175bb",
+    secondary: "#002338",
+    accent: "#57a5d6",
+    neutral: "#ebf4fa"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "656 69 31 41",
+  whatsapp: "+34656693141",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "C. Duque de Fernán Núñez, 15, Centro, 14003 Córdoba, España",
+    city: "Córdoba",
+    province: "Álava",
+    postalCode: "14003",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=458429431596223032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Centro%20Pilates%20Cordoba%20Fisioterapia%20SL%20%4037.8837%2C-4.78302&z=16&output=embed",
+  coordinates: {
+    lat: 37.8837,
+    lng: -4.78302
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - jueves",
+      hours: "9:00–13:00, 17:00–21:00"
+    },
+    {
+      days: "viernes",
+      hours: "9:00–13:00"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.5,
+    count: 36,
+    url: "https://maps.google.com/?cid=458429431596223032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Miguel Roldan Aguilar",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Mi puntuación sobre el Centro Pilates de Córdoba es de 5 Estrellas. Esta calificación está basada en mi experiencia directa. He tenido la suerte de recibir cesiones de fisioterapia de manos muy expertas y acertadas en la corrección de mis dolencias y, posteriormente recibir la terapia del Método Pilates dirigida por profesionales que, en todo momento, saben lo que está pasando dentro de mi cuerpo durante la ejecución de la de cada uno de los ejercicios. Por lo que siempre está controlado que no se produzcan lesiones y que los ejercicios sean los adecuados para corregir mis desviaciones posturales y sanar mis lesiones. He mejorado mucho y la experiencia de vivir con el cuerpo equilibrado es maravillosa. Estoy muy agradecido a todos los profesionales del Centro.",
+        date: "Hace 2 años"
       },
       {
-        author: "Javier Padilla",
+        author: "Alejandro Gavilán",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
-      },
-      {
-        author: "Melanie Ponce",
-        rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
-      },
-      {
-        author: "María Teresa Salguero",
-        rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
-      },
-    ],
+        text: "Sólo puedo tener palabras de agradecimiento por el trato recibido en todo momento!!!\nHace más de un mes,llegue allí que no podía ni andar por un accidente de tráfico.A día de hoy,estoy casi recuperado del todo gracias a sus sesiones.\nMuchas gracias en especial a Rocío,Ana y Fuen,por el trato que han tenido conmigo.\nSois unas profesionales como la copa de un pino!!",
+        date: "Hace 2 años"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual",
+      description: "Técnicas manuales especializadas aplicadas por profesionales expertas que identifican con precisión el origen de tus dolencias. Tratamos contracturas, lesiones musculares y problemas articulares con manos expertas y acertadas. Cada sesión está diseñada para aliviar el dolor y restaurar la movilidad de forma efectiva y segura.",
+      benefits: [
+        "Alivio inmediato del dolor",
+        "Mejora de la movilidad articular",
+        "Tratamiento personalizado según tu dolencia"
+      ],
+      icon: "Hand"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "metodo-pilates",
+      name: "Método Pilates Terapéutico",
+      description: "Terapia dirigida por profesionales que saben exactamente qué está pasando dentro de tu cuerpo durante cada ejercicio. Corregimos desviaciones posturales, sanamos lesiones y equilibramos tu cuerpo de forma controlada. Cada movimiento está supervisado para prevenir lesiones y maximizar tu recuperación.",
+      benefits: [
+        "Corrección de desviaciones posturales",
+        "Fortalecimiento muscular controlado",
+        "Prevención de futuras lesiones"
+      ],
+      icon: "Activity"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "rehabilitacion-lesiones",
+      name: "Rehabilitación de Lesiones",
+      description: "Programas de rehabilitación especializados para recuperación tras accidentes de tráfico, lesiones deportivas o dolencias crónicas. Desde casos en los que no puedes ni andar hasta la recuperación completa, te acompañamos en cada fase. Seguimiento continuo con sesiones adaptadas a tu evolución.",
+      benefits: [
+        "Recuperación progresiva y segura",
+        "Seguimiento continuo de tu evolución",
+        "Resultados visibles desde las primeras sesiones"
+      ],
+      icon: "Target"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "fisioterapia-deportiva",
+      name: "Fisioterapia Deportiva",
+      description: "Tratamiento especializado para deportistas y personas activas. Recuperamos lesiones deportivas y optimizamos tu rendimiento físico con técnicas avanzadas. Trabajamos prevención y recuperación para que vuelvas a tu actividad deportiva en las mejores condiciones.",
+      benefits: [
+        "Recuperación rápida de lesiones deportivas",
+        "Prevención de recaídas",
+        "Mejora del rendimiento físico"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "tratamiento-postural",
+      name: "Corrección Postural",
+      description: "Evaluación y corrección de desviaciones posturales que causan dolor crónico y limitaciones. Combinamos fisioterapia y ejercicios específicos para realinear tu cuerpo y eliminar molestias. Aprenderás a mantener una postura saludable en tu día a día.",
+      benefits: [
+        "Eliminación de dolores posturales",
+        "Mejora de la alineación corporal",
+        "Educación postural para tu rutina diaria"
+      ],
+      icon: "Activity"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "tratamiento-dolor-cronico",
+      name: "Tratamiento del Dolor Crónico",
+      description: "Abordaje integral para dolencias persistentes que afectan tu calidad de vida. Identificamos las causas profundas del dolor y aplicamos técnicas especializadas para su eliminación definitiva. Recupera la experiencia de vivir con el cuerpo equilibrado y sin molestias.",
+      benefits: [
+        "Alivio duradero del dolor crónico",
+        "Identificación de causas subyacentes",
+        "Mejora significativa de tu calidad de vida"
+      ],
+      icon: "Heart"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "valoracion-personalizada",
+      name: "Valoración Personalizada",
+      description: "Primera sesión de evaluación completa donde analizamos tu estado físico, historial de lesiones y objetivos de recuperación. Diseñamos un plan de tratamiento específico para tus necesidades. Nuestras profesionales saben exactamente qué necesita tu cuerpo en cada momento.",
+      benefits: [
+        "Diagnóstico preciso de tu situación",
+        "Plan de tratamiento a medida",
+        "Objetivos claros de recuperación"
+      ],
+      icon: "Target"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "terapia-manual-avanzada",
+      name: "Terapia Manual Avanzada",
+      description: "Técnicas especializadas aplicadas con precisión para casos complejos y dolencias específicas. Nuestras profesionales cuentan con la experiencia necesaria para tratar desde lesiones agudas hasta problemas crónicos. Cada sesión es controlada y adaptada a tu respuesta corporal.",
+      benefits: [
+        "Tratamiento de casos complejos",
+        "Técnicas especializadas y precisas",
+        "Control total durante cada sesión"
+      ],
+      icon: "Hand"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con Nosotros",
+      description: "Llámanos al 656 69 31 41 o escríbenos por WhatsApp. Te atenderemos personalmente y agendaremos tu primera cita de valoración en el horario que mejor te convenga."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Valoración Inicial Completa",
+      description: "Evaluamos tu estado físico, historial de lesiones y dolencias actuales. Nuestras profesionales diseñan un plan de tratamiento personalizado combinando fisioterapia y Método Pilates según tus necesidades específicas."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento Personalizado",
+      description: "Iniciamos las sesiones de fisioterapia y Pilates terapéutico adaptadas a tu caso. Cada ejercicio y técnica está controlado para asegurar que no se produzcan lesiones y que tu cuerpo responda correctamente a la terapia."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento y Recuperación Total",
+      description: "Acompañamiento continuo durante todo tu proceso de recuperación. Ajustamos el tratamiento según tu evolución hasta lograr tu recuperación completa y que recuperes tu calidad de vida sin dolor."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Valorados con 4.5 Estrellas por Nuestros Pacientes",
+      description: "36 reseñas en Google avalan nuestro trabajo. Nuestros pacientes destacan la profesionalidad del equipo, el trato cercano recibido y los resultados efectivos en su recuperación. La satisfacción de quienes han confiado en nosotros es nuestra mejor garantía.",
+      icon: "Heart"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Combinación Única: Fisioterapia + Método Pilates",
+      description: "Somos especialistas en integrar fisioterapia avanzada con el Método Pilates terapéutico. Esta combinación permite no solo tratar tus dolencias, sino corregir las causas posturales y fortalecer tu cuerpo de forma controlada para prevenir futuras lesiones. Un enfoque integral que marca la diferencia.",
+      icon: "Activity"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Profesionales Expertas y Acertadas",
+      description: "Nuestro equipo cuenta con manos expertas que identifican con precisión el origen de tus dolencias. Saben exactamente qué está pasando dentro de tu cuerpo durante cada tratamiento y ejercicio, garantizando que todo esté controlado y que los resultados sean los esperados. Experiencia que se nota desde la primera sesión.",
+      icon: "Target"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Resultados Reales y Recuperación Completa",
+      description: "Tratamos desde casos graves de accidentes hasta dolencias crónicas con resultados visibles. Nuestros pacientes llegan sin poder caminar y logran recuperarse casi completamente, o mejoran significativamente su calidad de vida eliminando dolores persistentes. Te acompañamos hasta tu recuperación total.",
+      icon: "Zap"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Rocío",
+      role: "Fisioterapeuta",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Centro Pilates Cordoba Fisioterapia SL nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
     },
+    {
+      name: "Ana",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Centro Pilates Cordoba Fisioterapia SL nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Fuen",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Centro Pilates Cordoba Fisioterapia SL nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Centro Pilates Cordoba Fisioterapia SL - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Centro Pilates Cordoba Fisioterapia SL - Imagen 2"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Centro Pilates Cordoba Fisioterapia SL - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Centro Pilates Cordoba Fisioterapia SL - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Centro Pilates Cordoba Fisioterapia SL - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Centro Pilates Cordoba Fisioterapia SL - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "Centro Pilates Cordoba Fisioterapia SL - Imagen 7"
+    },
+    {
+      src: "/images/gallery/8.webp",
+      alt: "Centro Pilates Cordoba Fisioterapia SL - Imagen 8"
+    },
+    {
+      src: "/images/gallery/9.webp",
+      alt: "Centro Pilates Cordoba Fisioterapia SL - Imagen 9"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué diferencia al Centro Pilates Cordoba Fisioterapia SL de otras clínicas?",
+      answer: "En Centro Pilates Cordoba Fisioterapia SL combinamos fisioterapia especializada con el Método Pilates terapéutico, ofreciendo un enfoque integral único. Nuestras profesionales no solo tratan tus dolencias, sino que saben exactamente qué está pasando dentro de tu cuerpo durante cada ejercicio, garantizando una recuperación controlada y sin riesgos. Nuestros pacientes valoran especialmente el trato cercano y profesional, reflejado en nuestras 4.5 estrellas en Google con 36 reseñas."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Cuánto tiempo tarda la recuperación de una lesión?",
+      answer: "El tiempo de recuperación depende del tipo y gravedad de la lesión, así como de tu respuesta al tratamiento. Hemos tratado casos desde accidentes de tráfico graves donde el paciente no podía caminar hasta recuperación casi completa en poco más de un mes. Durante la valoración inicial estableceremos objetivos realistas y un calendario aproximado. Lo importante es que notarás mejoras desde las primeras sesiones."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿En qué consiste el Método Pilates terapéutico?",
+      answer: "El Método Pilates en Centro Pilates Cordoba Fisioterapia SL es una terapia dirigida por profesionales especializadas que supervisan cada ejercicio. No es Pilates convencional: cada movimiento está diseñado para corregir tus desviaciones posturales específicas y sanar tus lesiones de forma controlada. Nuestras profesionales controlan que no se produzcan lesiones y que los ejercicios sean los adecuados para tu caso particular, logrando el equilibrio corporal completo."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Tratáis lesiones por accidentes de tráfico?",
+      answer: "Sí, somos especialistas en rehabilitación tras accidentes de tráfico. Hemos tratado con éxito casos graves donde el paciente llegaba sin poder caminar y logró recuperarse casi completamente. Diseñamos un programa de fisioterapia intensivo adaptado a las lesiones específicas del accidente, con seguimiento continuo hasta la recuperación total. Nuestro equipo tiene amplia experiencia en este tipo de lesiones traumáticas."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Ofrecéis tratamiento para dolencias crónicas y problemas posturales?",
+      answer: "Absolutamente. La corrección de desviaciones posturales y el tratamiento de dolencias crónicas es una de nuestras especialidades. Combinamos fisioterapia manual experta con ejercicios específicos del Método Pilates para corregir la causa raíz del problema. Nuestros pacientes destacan la mejora significativa en su calidad de vida y la experiencia de vivir con el cuerpo equilibrado y sin dolor persistente."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Necesito que me derive mi médico para acudir?",
+      answer: "No es necesario derivación médica para acudir a Centro Pilates Cordoba Fisioterapia SL. Puedes contactarnos directamente llamando al 656 69 31 41 o por WhatsApp y agendaremos tu cita de valoración. Si tienes informes médicos o pruebas diagnósticas previas, tráelos a la primera sesión para que nuestras profesionales tengan toda la información necesaria."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué horarios tenéis disponibles?",
+      answer: "Ofrecemos flexibilidad horaria para adaptarnos a tus necesidades. Te recomendamos contactarnos por teléfono al 656 69 31 41 o WhatsApp para consultar disponibilidad actualizada y encontrar el horario que mejor se ajuste a tu agenda. Nuestro objetivo es facilitarte el acceso al tratamiento sin complicaciones."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Cuál es el coste de las sesiones de fisioterapia?",
+      answer: "El coste varía según el tipo de tratamiento y la duración de las sesiones necesarias para tu caso específico. Durante la valoración inicial te proporcionaremos un presupuesto detallado y transparente adaptado a tu plan de tratamiento personalizado. Puedes contactarnos en el 656 69 31 41 para información más específica sobre tarifas y posibles bonos de sesiones."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Centro Pilates Cordoba Fisioterapia SL",
+    defaultTitle: "Fisioterapia y Pilates en Córdoba | Centro Pilates Cordoba",
+    defaultDescription: "Centro Pilates Cordoba Fisioterapia SL en Córdoba, Álava. Fisioterapia especializada y Método Pilates para tu recuperación. Valorados 4.5★. Llama al 656 69 31 41.",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia Córdoba",
+      "Centro Pilates Cordoba Fisioterapia SL",
+      "pilates terapéutico Córdoba",
+      "fisioterapeuta Córdoba Álava",
+      "rehabilitación lesiones Córdoba",
+      "fisioterapia deportiva Córdoba",
+      "corrección postural Córdoba",
+      "tratamiento dolor crónico Córdoba",
+      "fisioterapia accidentes tráfico Córdoba",
+      "clínica fisioterapia Córdoba",
+      "método pilates Córdoba",
+      "fisioterapia manual Córdoba Álava"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Centro Pilates Cordoba Fisioterapia SL",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "C. Duque de Fernán Núñez, 15, Centro, 14003 Córdoba, España, Córdoba, Álava"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Córdoba"
+  ],
+  heroDescription: "En Centro Pilates Cordoba Fisioterapia SL combinamos fisioterapia especializada con el Método Pilates terapéutico para tu recuperación completa. Nuestro equipo de profesionales expertas te acompaña desde la primera sesión hasta tu total recuperación, corrigiendo dolencias, lesiones y desviaciones posturales con técnicas precisas y personalizadas.",
+  specialty: "Fisioterapia y Pilates",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Preparado para recuperar tu bienestar?",
+  ctaDescription: "Solicita tu cita de valoración y comienza tu camino hacia la recuperación. Nuestro equipo diseñará un plan personalizado adaptado a tus necesidades específicas.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
